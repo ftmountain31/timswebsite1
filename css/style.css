@@ -1,0 +1,277 @@
+*{
+	margin:0;
+	margin:0;
+}
+
+html{
+	overflow-y:scroll;
+}
+
+html, body{
+	margin:0;
+	height:100%;
+	width:100%;
+}
+
+img{
+	width:auto;
+	max-width:100%;
+	height:auto;
+}
+
+.container{
+	text-align:center;
+	content-align:center;
+	min-height:98%;
+	padding:0;
+	position:relative;
+	min-height:100vh;
+	overflow:hidden;
+}
+
+.content-wrapper{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	display:inline-block;
+	text-align:center;
+	content-align:center;
+}
+
+#header{
+	margin: 40px 0px 0px 0px;
+	width:393px;
+	height:70px;
+	padding:0;
+	display:inline-block;
+}
+
+#header:hover{
+	background-image:url('../images/headerhover.png');
+}
+
+.gallery{
+	background-color:white;
+	width:100%;
+	min-height:250px;
+	padding-bottom:50px;
+	display:inline-block;
+	margin:80px 0px 0px 100px;
+	box-sizing:border-box;
+	text-align:center;
+	content-align:center;
+}
+		
+#music{
+	width:200px;
+	height:200px;
+	background-image:url('../images/music.png');
+	float:left;
+	margin:0px 25px 0px 25px;
+	box-sizing:border-box;
+}
+
+#music:hover{
+	opacity:75%;
+}
+
+#writing{
+	width:200px;
+	height:200px;
+	background-image:url('../images/writing.png');
+	float:left;
+	margin:0px 25px 0px 0px;
+	box-sizing:border-box;
+}
+
+#writing:hover{
+	opacity:75%;
+}
+
+#comedy{
+	width:200px;
+	height:200px;
+	background-image:url('../images/comedy.png');
+	float:left;
+	margin:0px 25px 0px 0px;
+	box-sizing:border-box;
+}
+
+#comedy:hover{
+	opacity:75%;
+}
+
+#otherstuff{
+	width:200px;
+	height:200px;
+	background-image:url('../images/otherstuff.png');
+	float:left;
+	margin:0px 25px 0px 0px;
+	box-sizing:border-box;
+}
+
+#otherstuff:hover{
+	opacity:75%;
+}
+
+#professional{
+	width:200px;
+	height:200px;
+	background-image:url('../images/professional.png');
+	float:left;
+	margin:0px 0px 0px 0px;
+	box-sizing:border-box;
+}
+
+#professional:hover{
+	opacity:75%;
+}
+
+#footer{
+	background-color:white;
+	color:black;
+	font-family:"Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	font-size:14px;
+	position:absolute;
+	text-align:center;
+	content-align:center;
+	bottom:0;
+	width:100%;
+	padding:5px 0px 2px 20px;
+	max-height:20px;
+	min-height:20px;
+	overflow:hidden;
+}
+
+#footer ul{
+	padding:0;
+	list-style:none;
+}
+
+#footer li{
+	text-align:center;
+	display:inline;
+	padding-right:40px;
+	overflow:hidden;
+}
+
+#footer a{
+	color:#8A8A8A;
+	text-decoration:none;
+	font-family:"Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	font-size:14px;
+}
+
+#footer a:hover{
+	color:#00CD8A;
+}
+
+.page-header{
+	font-family:"Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	text-size:20px;
+	width:40%;
+	margin:auto;
+	margin-top:30px;
+	text-align:center;
+}
+
+.page-body{
+	font-family:"Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	text-size:20px;
+	margin-bottom:0px;
+	padding-bottom:30px;
+	width:40%;
+	margin:auto;
+	line-height:1.9em;
+	text-align:justify;
+}
+
+.after-body{
+	width:100%;
+	display:inline-block;
+	height:250px;
+}
+
+.page-body a{
+	color:#8A8A8A;
+	text-decoration:none;
+}
+
+.page-body a:hover{
+	text-decoration:none;
+	color:#00CD8A;
+}
+
+.page-picture{
+	display:inline-block;
+}
+
+#handmyhold{
+	height:328px;
+	width:328px;
+}
+
+#handmyhold:hover{
+	background-image:url('../images/handmyholdhover.png');
+}
+
+#bed{
+	height:328px;
+	width:328px;
+}
+
+#bed:hover{
+	background-image:url('../images/bedhover.png');
+}
+
+#touchpoolshowposter{
+	width:328px;
+	height:424px;
+}
+
+#touchpoolshowposter:hover{
+	opacity:75%;
+}
+
+.smaller-paragraph{
+	font-size:14px;
+}
+
+.bigger-paragraph{
+	
+}
+
+.biggest-paragraph{
+	font-size:20px;
+}
+
+.fashionrules-container{
+	display:inline;
+	text-align:center;
+	align-content:center;
+}
+
+.fashionrules-content{
+	margin-bottom:30px;
+	padding-left:16%;
+}
+
+.fashionrules-content button{
+	background-color:white;
+}
+
+.signboard-container{
+	display:inline;
+	text-align:center;
+	align-content:center;
+}
+
+.signboard-content{
+	margin-bottom:30px;
+	padding-left:16%;
+}
+
+.signboard-content button{
+	background-color:white;
+}

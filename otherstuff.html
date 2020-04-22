@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tim Mountain - Other Stuff</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon/">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+<div class="container">
+	
+	<header id="header">
+		<a href="home.html">
+		<img src="images/header.png" alt="Tim Mountain">
+		</a>
+	</header>
+
+	<body>
+		<div class="page-header">
+			<h2>other stuff</h2>
+		</div>
+		<br> <br> <br>
+		<div class="page-body">
+			<p class="biggest-paragraph">this page features pursuits of tim's that elude classification elsewhere.</p>
+			   
+			<br> <br> <hr> <br> <br>   
+			   
+			<center><p class="bigger-paragraph"><b>ten rules for fashion</b></p></center>
+			
+			<br> <br>
+			
+<!-- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -->
+
+<div class="fashionrules-container">
+
+<div class="fashionrules-content" style="max-width:800px">
+ 	    <img class="fashionrules" src="images/fashionrules1.png" alt="fashionrules1" style="width:80%"> 
+		<img class="fashionrules" src="images/fashionrules2.png" alt="fashionrules2" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules3.png" alt="fashionrules3" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules4.png" alt="fashionrules4" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules5.png" alt="fashionrules5" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules6.png" alt="fashionrules6" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules7.png" alt="fashionrules7" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules8.png" alt="fashionrules8" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules9.png" alt="fashionrules9" style="width:80%">
+		<img class="fashionrules" src="images/fashionrules10.png" alt="fashionrules10" style="width:80%">
+
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("fashionrules");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+</div><!--/fashionrulescontainer-->
+
+<!-- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -- Gallery -->
+			
+			<br>
+			
+			<p class="smaller-paragraph">this is a project from january 2020. tim was experimenting with design, and figured he might as well drop some hot fashion tips while he was at it.</p>
+			
+		</div>		
+		
+		<div class="page-body">
+			<br> <br> <hr> <br> <br>
+	
+			<center><p class="bigger-paragraph"><b>10/19 p.b.r.s. show poster</b></p></center>
+		</div>
+		
+		<br>
+		
+		<div class="page-picture">
+			<div class="page-picture" id="touchpoolshowposter">		
+				<a href="images/touchpoolshowposterbig.png" target="_blank">
+					<img src="images/touchpoolshowposterbig.png">				
+				</a>	
+				
+			</div>
+		</div>	
+		
+		<br> <br> <br>
+		
+		<div class="page-body">
+		<p class="smaller-paragraph">this is a poster tim designed for a show that touch pool played with warehouser and let me ask my mother in october 2019.</p>
+
+		</div>
+		
+		
+		
+	</body>
+	
+	<div class="after-body">
+	</div>
+	
+	<div id="footer">
+		<footer>
+				<ul>
+					<li><a href="Home.html">home</a></li>
+					<li><a href="about.html">about</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+		</footer>			
+	</div><!-- /footer -->
+	
+
+
+</div><!-- /container -->
+	
+
+	
+
+
+</html>
