@@ -15,7 +15,6 @@ html, body{
 
 img{
 	width:auto;
-	max-width:100%;
 	height:auto;
 }
 
@@ -56,72 +55,34 @@ img{
 	width:100%;
 	min-height:250px;
 	padding-bottom:50px;
-	display:inline-block;
-	margin:80px 0px 0px 100px;
+	display: flex; 
+	justify-content: center;
+	margin: 80px auto;
 	box-sizing:border-box;
 	text-align:center;
-	content-align:center;
 }
-		
-#music{
-	width:200px;
-	height:200px;
-	background-image:url('../images/music.png');
-	float:left;
-	margin:0px 25px 0px 25px;
-	box-sizing:border-box;
+
+.gallery-tile {
+	width:auto;
+	height:auto;
+	margin: auto;
 }
 
 #music:hover{
 	opacity:75%;
 }
 
-#writing{
-	width:200px;
-	height:200px;
-	background-image:url('../images/writing.png');
-	float:left;
-	margin:0px 25px 0px 0px;
-	box-sizing:border-box;
-}
-
 #writing:hover{
 	opacity:75%;
 }
 
-#comedy{
-	width:200px;
-	height:200px;
-	background-image:url('../images/comedy.png');
-	float:left;
-	margin:0px 25px 0px 0px;
-	box-sizing:border-box;
-}
 
 #comedy:hover{
 	opacity:75%;
 }
 
-#otherstuff{
-	width:200px;
-	height:200px;
-	background-image:url('../images/otherstuff.png');
-	float:left;
-	margin:0px 25px 0px 0px;
-	box-sizing:border-box;
-}
-
 #otherstuff:hover{
 	opacity:75%;
-}
-
-#professional{
-	width:200px;
-	height:200px;
-	background-image:url('../images/professional.png');
-	float:left;
-	margin:0px 0px 0px 0px;
-	box-sizing:border-box;
 }
 
 #professional:hover{
@@ -138,7 +99,7 @@ img{
 	content-align:center;
 	bottom:0;
 	width:100%;
-	padding:5px 0px 2px 20px;
+	padding:5px 0px 20px 20px;
 	max-height:20px;
 	min-height:20px;
 	overflow:hidden;
@@ -274,4 +235,32 @@ img{
 
 .signboard-content button{
 	background-color:white;
+}
+
+@media only screen and (max-width:900px) {
+	.gallery{
+		background-color:white;
+		width:100%;
+		min-height:250px;
+		padding-bottom:50px;
+		display: flex; 
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-content: center;
+		margin: 80px auto;
+		box-sizing:border-box;
+		text-align:center;
+	}
+
+
+	img{
+		width:300px;
+		height:auto;
+	}
+
+	.page-body {
+		width: auto;
+		margin: 30px;
+	}
 }
