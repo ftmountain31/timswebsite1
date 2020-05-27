@@ -187,10 +187,8 @@ img{
 }
 
 #touchpoolshowposter{
-	width:328px;
-	height:424px;
-	max-width:328px;
-	max-height:424px;
+	width:30%;
+	height:30%;
 }
 
 #touchpoolshowposter:hover{
