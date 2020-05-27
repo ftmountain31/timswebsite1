@@ -158,6 +158,8 @@ img{
 	width:100%;
 	display:inline-block;
 	height:250px;
+	max-height:250px;
+	margin-bottom:5px;
 }
 
 .page-body a{
