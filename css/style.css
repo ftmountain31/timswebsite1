@@ -195,6 +195,16 @@ img{
 	opacity:75%;
 }
 
+#postercontainer{
+	width:328px;
+	height:424px;
+	box-sizing:border-box;
+	align-content:center;
+	display:inline;
+	max-height:328px;
+	max-width:424px;
+}
+
 .smaller-paragraph{
 	font-size:14px;
 }
