@@ -128,6 +128,11 @@ img{
 	color:#00CD8A;
 }
 
+#otherstufffooter{
+	align-content:center;
+	text-align:center;
+}
+
 .page-header{
 	font-family:"Lucida Bright", "DejaVu Serif", "Georgia", "serif";
 	text-size:20px;
